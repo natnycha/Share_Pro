@@ -1,0 +1,158 @@
+.message-box{
+  //height: 50px;
+  //width: ;
+  background-color: #fcbe32;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+  max-width: 190;
+  //word-wrap: break-word;
+  word-break: break-all;
+  display: inline-flex;
+  margin: 0px 30px;
+  
+}
+
+.message-box2{
+  //height: 50px;
+  //width: ;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+  max-width: 190;
+  //word-wrap: break-word;
+  word-break: break-all;
+  display: inline-flex;
+  margin: 0px 30px;
+  border: 2px;
+  border-style: solid;
+  border-color: #fcbe32;
+}
+
+.showchat{
+  padding-top: 30px;
+  background-color: white;
+  min-height: 795px;
+  //min-width: 300px;
+  width: 100%;
+  //overflow: hidden;
+  scroll-behavior: smooth;
+  // border-style: solid;
+  // border-bottom-color: #004e66;
+  overflow-y: auto;
+  overflow: auto
+}
+
+#input-form{
+  background: #FFF0CD ;
+  min-height: 60px;
+  width: 100%
+  
+}
+
+.input-text{
+  background: #FFF0CD;
+  margin: 10px 18px;
+  width: calc(82% - 3em);
+  padding-top: 8px;
+  border: 0;
+  // border-style: solid;
+  // border-color: plum;
+
+
+}
+
+.send{
+  border: 0;
+  border-radius: 10px;
+  padding: 7px 20px;
+  background-color: #fcbe32;
+
+}
+
+.join-group{
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 28px;
+  background-color: #fcbe32;
+  font-size: 100%;
+    
+
+}
+
+.space-join{
+  display: table-cell;
+  text-align: center
+    //background-color: red;
+}
+
+.betweenbox{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.header-topic{
+  min-width: fit-content;
+  background-color: white;
+  height: 80px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFDB86;
+  border-width: thin;
+  padding-top: 25px;
+  padding-bottom: 2px;
+  //font-weight: bold;
+  
+  // border-style: solid;
+  // border-color: plum;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+
+.text-header{
+  font-size: calc(5% + 2vmin);
+  color: black ;
+  text-align: center;
+  //border-style: solid;
+  //border-color: plum;
+    display: table-cell;
+    //background-color: red;
+    text-align: right;
+  
+}
+
+.all-in-chat{
+  height: 100%;
+  height: calc(100% - 20px);
+  width: 100%;
+  // border-style: solid;
+  // border-color: palevioletred;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Row
+{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+.Column1
+{
+    display: table-cell;
+    //background-color: red;
+    text-align: right;
+}
+.Column2
+{
+    display: table-cell;
+    right: 1;
+    //background-color: red;
+}
+
+
+

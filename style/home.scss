@@ -1,0 +1,464 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+body{
+  //font-family: 'Sarabun', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+
+.menuBar{
+    width: auto;
+    height: 60px;
+    padding: 0 20;
+    border-bottom: solid 1px #e8e8e8;
+    overflow: auto;
+    box-shadow: 0 0 30px #f3f3f3;
+}
+
+.logo{
+    width: 150px;
+    float: left;
+}
+
+.logo p{
+    columns: #004e66;;
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 11px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-weight: bold;;
+}
+
+.btnbar{
+  float: right;
+  padding-top: 11px;
+  padding-right: 20px;
+}
+.avtprofile{
+  float: right;
+  padding-right: 50px;
+}
+
+.cd{
+  padding:3px;
+  background-color: #004e66;
+  //margin: 50px 5px;
+}
+.cd p{
+    text-align: left;
+    color: #aec5d3;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-left: 5%;
+}
+
+.contactcradit{
+
+  padding: 30px;
+ 
+  background-color: #e1eef6;
+  border-bottom: solid 1px #99c7d4;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f3f3;
+}
+
+
+
+.content_pro{
+  margin: 50px 100px;
+}
+
+.topicpro{
+  height: 60px;
+  width: 30%;
+  background-color: #fcbe32;
+  border-bottom: solid 1px #e8e8e8;
+  box-shadow: 0 0 30px #f3f3f3;
+
+}
+.topicpro p{
+  text-align: right;
+  font-size: 20px;
+  color: #004e66;
+  padding-right: 50px;
+  padding-top: 15px;
+  font-weight: bold;
+  
+}
+.gaphome{
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+.buttonshop {
+  background-color: #ff5f2e; 
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  //display: inline-block;
+  font-size: 16px;
+  float: right;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ant-carousel .slick-slide {
+  //text-align: center;
+  height: 200px;
+  line-height: 160px;
+  background:#aec5d3;
+  overflow: hidden;
+}
+
+.slide1st{
+  background-image: url("https://i.ibb.co/6X50vcK/golden-gate-bridge-night-san-francisco-4k-1920x1080.jpg");
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.menuCon{
+    width: calc(100% - 150px);
+    float: left;
+  }
+  .menuCon .ant-menu-item{
+    padding: 0px 5px;
+  }
+  .menuCon .ant-menu-submenu-title{
+    padding: 10px 20px;
+  }
+  .menuCon .ant-menu-item a, .menuCon .ant-menu-submenu-title a{
+    padding: 10px 15px;
+  }
+  .menuCon .ant-menu-horizontal{
+    border-bottom: none;
+  }
+
+.barsMenu{
+    float: right;
+    height: 32px;
+    //width: 32px;
+    //padding: 6px;
+    //margin-top: 3px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    //background:none;
+}
+
+.barBtn{
+  align-items: center;
+    width: 20px;
+    //position: absolute;
+    //top: -6px;
+    //left: 0;
+    //height: 2px;
+    //background: #1890ff;
+    padding-bottom: 20px;
+}
+
+.ant-drawer-body{
+    padding: 0;
+}
+
+
+//shoppp
+
+.buttonsymbol{
+  align-items: center;
+}
+
+
+.buttonshop:hover{
+  .buttonsymbol {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.bannerphoto{
+  background-color: gray;
+  max-width: 80%;
+  //height: 25px;
+  padding: 9%;
+  margin-left: 10%;
+}
+
+.namerest{
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  //background-color: #e1eef6;
+}
+.namerest p{
+  font-size: 30px;
+  font-weight: bold;
+  //color: #004e66;
+  padding-left: 18px;
+}
+
+.typefood{
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: none;
+  padding-left: 18px;
+}
+
+.shopdetail{
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.shopdetail p{
+  font-size: 16px;
+  display: inline;
+  padding-left: 10px;
+}
+.shopdetail h3{
+  font-size: 16px;
+  font-weight: bold;
+  //display: inline;
+}
+//Credit
+.privacypolicy{
+  padding-left: 10%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.privacypolicy h1{
+  font-size: 2vw;
+  font-weight: bold;
+}
+.privacypolicy h2{
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column h2{
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+.column h1{
+  font-weight: bold;
+  text-align: right;
+  color: #364d79;
+}
+.column a{
+  font-size: 14px;
+  color: #364d79;
+}
+.column h3{
+  font-size: 14px;
+  color: #364d79;
+  text-align: right;
+}
+
+//content 
+.contentset{
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+
+
+//pro
+.probackground {
+  border-radius: 25px;
+  background: #e1eef6;
+  padding: 20px; 
+  width: 80%;
+  height: 150px; 
+}
+
+.columnpro {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.columnpro {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.rowpro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.leftpro {
+  background: #004e66;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #e1eef6;
+  padding-left: 5%;
+}
+.leftpro p{
+  color: #e1eef6;
+  padding-left: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 13px;
+}
+.rightpro {
+  background: #e1eef6;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 90%;
+  height: 130px;
+  padding-left: 5%;
+  padding-top: 20px;
+  //padding: 5%;
+}
+
+.rightpro p{
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+//CardHome
+.card__one {
+  transition: transform .5s;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s cubic-bezier(.165, .84, .44, 1);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+    content: '';
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale3d(1.006, 1.006, 1);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.buttoncard {
+  background-color: #ff5f2e; 
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  //float: right;
+  width: 100px;
+  height: 35px;
+  padding-bottom: 10px;
+
+}
+
+
+.buttoncard:hover{
+  .buttonsymbol {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  }
+}
+
+.namesur{
+  margin-top: 20px;
+  //margin-left: 0px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f3f3;
+  
+
+}
+
+.namesur p{
+  font-weight: bold;
+  font-size: 20px;
+  display: inline;
+  padding-left: 15px;
+  padding-top: 30px;
+
+
+}
+
+.loginbg{
+  background-image: url('https://i.ibb.co/rHzvTgF/forlogin.jpg');
+}
+
+
+
+
+.headName{
+  padding-left: 15%;
+  padding-top: 3px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.headName h2{
+  font-size: 23px;
+}
+.pic1{
+  background-image: url("../static/images/ma.jpg");  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
